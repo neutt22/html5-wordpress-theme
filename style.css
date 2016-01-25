@@ -1,4 +1,55 @@
 
-body{
+/* Top contact info */
+
+.top-contact-info{
+	color: #787878;
+	padding-right: 10px;
+	margin-top: 5px;
+}
+
+.top-contact-info ul {
+	padding: 0;
+	margin: 0;
+}
+
+.top-contact-info ul li {
+	list-style: none;
+	float: right;
+	margin: 0;
+	margin-left: 20px;
+	padding: 0;
+}
+
+.top-contact-info ul li a, .top-contact-info ul li a:visited{
+	text-decoration: none;
 	color: #787878;
 }
+
+/* Top social info */
+
+.top-social-info{
+	background-color: yellow;
+	color: #787878;
+	padding-right: 10px;
+	margin-top: 0;
+}
+
+.top-social-info ul {
+	padding: 0;
+	margin: 0;
+	margin-top: 5px;
+}
+
+.top-social-info ul li {
+	list-style: none;
+	float: right;
+	margin: 0;
+	margin-left: 5px;
+	padding: 0;
+}
+
+.top-social-info ul li a, .top-social-info ul li a:visited{
+	text-decoration: none;
+	color: #787878;
+}
+

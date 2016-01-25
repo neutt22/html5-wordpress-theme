@@ -53,3 +53,153 @@
 	color: #787878;
 }
 
+
+/* Main navigation */
+
+.main-nav {
+	color: #787878;
+	padding-top: 70px;
+	padding-bottom: 10px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #13afea;
+}
+
+.main-nav ul {
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+.main-nav ul li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+}
+
+
+.main-nav ul li:hover {
+	background: #13afea;
+	color: white;
+}
+
+.main-nav .logo-container {
+	display: inline-block;
+}
+
+.main-nav .logo-container img{
+	width: 70%;
+	padding-left: 40px;
+}
+
+.main-nav ul li a, .main-nav ul li a:visited {
+	color: #787878;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	height: 58px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.main-nav ul li a:hover {
+	color: white;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .top-contact-info {
+    	display: none;
+    }
+
+    .logo-container{
+    	width: 100%;
+    }
+
+    .logo-container img {
+    	display: block;
+    	margin: 0 auto;
+    	padding-left: 0;
+    }
+
+    .main-nav ul {
+    	width: 100%;
+    }
+
+	.main-nav ul li:first-child {
+		width: 100%;
+		list-style: none;
+		display: block;
+		float: none;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: #13afea;
+	}
+
+	.main-nav ul li {
+		width: 100%;
+		list-style: none;
+		display: block;
+		float: none;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: #13afea;
+	}
+
+	div#wrapper {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+}
+
+/* Main content */
+
+div#wrapper {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+div.main-info {
+	background: none;
+	width: 46%;
+	float: left;
+}
+
+div.main-info img {
+	width: 100%;
+}
+
+div.main-cta {
+	background: none;
+	height: 400px;
+	padding-left: 4%;
+	padding-right: 4%;
+	width: 42%;
+	float: right;
+	margin-top: 40px;
+}
+
+div.window-cta {
+	position: relative;
+	height: 200px;
+	background: #13afeb;
+	padding-top: 40px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+div.title {
+	position: absolute;
+	right: -10px;
+	left: -10px;
+	color: white;
+	background: #303030;
+	padding: 10px;
+	font-style: italic;
+}
+
+div.title h2 {
+	text-align: center;
+}
